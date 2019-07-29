@@ -21,7 +21,7 @@ class monster {
         const monsterUI = document.createElement("div");
         const img = document.createElement("img");
         img.src = this.imageUrl
-        img.height = w;
+        img.height = w; // <-- have to cjange yj
         img.width = h;
         monsterUI.append(img)
         monsterUI.style.position = "absolute"
@@ -31,6 +31,5 @@ class monster {
         monsterUI.addEventListener("click",monsterMoves)
         return monsterUI;
     }
-
 }
 
