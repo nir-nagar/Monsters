@@ -23,7 +23,7 @@ class monster {
         img.src = this.imageUrl
         img.height = w; // <-- have to cjange yj
         img.width = h;
-        monsterUI.append(img)
+        monsterUI.append(img) <---- sdfjhkjasdgfjhasdgfjhkasd
         monsterUI.style.position = "absolute"
         monsterUI.style.left = this.x
         monsterUI.style.top = this.y
